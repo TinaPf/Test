@@ -1,0 +1,148 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{apacite}
+
+\PassOptionsToPackage{ngerman}{babel}
+
+
+\usepackage{pgfplots}
+\usetikzlibrary[topaths]
+\usetikzlibrary {positioning}
+\titleformat*{\chapter}{\hypersetup{hidelinks}}
+\titleformat*{\section}{\hypersetup{hidelinks}}
+\titleformat*{\subsection}{\hypersetup{hidelinks}}
+\titleformat*{\paragraph}{\hypersetup{hidelinks}}
+
+
+
+\title{Test}
+\author{b.pflugbeil }
+\date{February 2020}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\newcommand{\myTitle}{Konzeption einer betrieblichen Nachhilfeeinheit gestützt mit emotionsförderlicher Lernumgebung  
+	\xspace}
+%\newcommand{\mySubtitle}{Determine a correlation of code segments using Clang and LLVM\xspace}
+\newcommand{\myDegree}{\xspace}
+\newcommand{\myName}{Bettina Pflugbeil\xspace}
+\newcommand{\mymatrikel}{60207\xspace}
+\newcommand{\mystudies}{MA Bildungs- und Erziehungsprozesse\xspace}
+\newcommand{\mysemester}{SS 20\xspace}
+\newcommand{\myFsemester}{2. Semester\xspace}
+\newcommand{\mymail}{bettina-pflugbeil@web.de\xspace}
+\newcommand{\mytestNr}{745251\xspace}
+\newcommand{\mymodul}{Modulbereich A2: Kernmodule Bildungswissenschaften\xspace}
+\newcommand{\myAdvisor}{Monika-Sybille Wolff\xspace}
+%\newcommand{\myProf}{Prof. Dr. Harald Kosch\xspace}
+%\newcommand{\myOtherProf}{\xspace}
+\newcommand{\myFaculty}{Philosophische Fakultät\xspace}
+\newcommand{\myDepartment}{Lehrstuhl für Erziehungswissenschaft\\	mit Schwerpunkt Empirische Lehr-/Lernforschung\xspace}
+\newcommand{\myUni}{Universität Passau\xspace}
+\newcommand{\myLocation}{Passau\xspace}
+\newcommand{\myTime}{Oktober 2020\xspace}
+\newcommand{\myCourseN}{40880\xspace}
+\newcommand{\myVTitle}{Seminar: Gestaltung emotionsförderlicher Lernumgebungen in schulischen und außerschulischen Handlungsfeldern\xspace}
+\newcommand{\mytype}{Seminararbeit\xspace}
+\newcommand{\myDate}{14.10.2020}
+
+
+\begin{document}
+	
+	\begin{titlepage}
+		\begin{flushleft}
+			\myUni \\
+			\myFaculty \\
+			\myDepartment \\
+			\\
+			\\   	 
+			\myCourseN, \myVTitle \\
+			\mytype \\
+			\myAdvisor \\
+			\mysemester \\
+		\end{flushleft}    	
+		
+		\begin{center}
+			\large  
+			
+			\hfill
+			
+			\vfill
+			
+			\vfill
+			\vfill
+			\vfill
+			
+			
+			\begingroup
+			\spacedallcaps{\myTitle} \\ \bigskip
+			\endgroup
+			
+			%        \spacedlowsmallcaps{\myName}
+			
+			\vfill
+			
+			\vfill
+			\vfill
+			\vfill  
+			
+			%\includegraphics[width=6cm]{gfx/TFZsuperellipse_bw} \\ \medskip
+			%		\spacedlowsmallcaps{Bachelorarbeit} \\ \medskip 
+			%\mySubtitle \\ \medskip   
+			%\myDegree \\
+			%       \myDepartment \\                            
+			%      \myFaculty \\
+			%     \myUni \\ \bigskip
+			%    Betreuer:  \myAdvisor \\ \medskip
+			% Supervisor: \myProf \\ \medskip
+			%        2nd corrector: \myOtherProf \\ \bigskip
+			
+			% \myTime%\ -- \myVersion
+			
+			\vfill   
+			
+			
+			\vfill
+			\vfill
+			\vfill                           
+			
+		\end{center}  
+		\myName \\
+		\mymatrikel \\
+		\mystudies \\
+		\mysemester \\
+		\mymail \\
+		\mytestNr \\
+		\mymodul \\
+		\myDate
+		
+		
+		
+		% \end{addmargin}       
+\end{titlepage} 
+
+\cleardoublepage
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+\tableofcontents
+
+
+\cleardoublepage
+
+\include{Chapters/Chapter00}
+
+
+
+
+%------------------------------------------------------------------
+
+\bibliographystyle{apacite}
+\newpage
+\bibliography{references}
+
+
+
+\newpage
+%\refstepcounter{dummy}
+%\pdfmark[0]{Declaration}{declaration}
+\end{document}
